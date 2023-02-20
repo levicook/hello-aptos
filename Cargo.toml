@@ -1,0 +1,14 @@
+[package]
+name = "hello-aptos"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aptos-sdk = { git = "https://github.com/aptos-labs/aptos-core", branch = "main" }
+
+anyhow = "1.0.69"
+once_cell = "1.17.1"
+tokio = "1.25.0"
+url = "2.3.1"
